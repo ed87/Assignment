@@ -1,0 +1,155 @@
+
+body {
+    margin: 0;
+    padding: 100px;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    max-width: 1200px;
+    margin: auto
+}
+#Art-card-info{
+    color: #FFFFFF;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+h1{
+    font-family: Libre Caslon Display;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+     color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#btn{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: #212121;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    
+    color: #FFFFFF;
+      
+}
+
+
+#h2{
+    height: 48px;
+    width: 269px;
+    left: 72px;
+    top: 1113px;
+    border-radius: nullpx;
+    
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+h2{
+    height: 48px;
+    width: 269px;
+    left: 72px;
+    top: 1113px;
+    border-radius: nullpx;
+    
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+
+.Art-card-image1{
+    height: 352px;
+    width: 419px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    
+    right: 0px;
+    text-align: center;
+    background: url(.jpg);
+    border-radius: 4px;
+
+}
+.Art-card-title{
+    height: 14px;
+    width: 80px;
+    left: 32px;
+    top: 387px;
+    border-radius: nullpx;
+     
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Art-card2{
+    margin-bottom: 100px;
+
+}
+
+ #read_more{
+
+text-align: right;
+
+} 
+
+
+#rectangle1{
+    height: 600px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+    background: #212121;
+    opacity: 0.5;
+
+}
+
+#rectangle3{
+
+    height: 15px;
+    width: 90px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+     margin-left: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#hamburger{
+height: 35px;
+width: 35px;
+margin-left: 311px;
+top: 32px;
+border-radius: 0px;
+}
