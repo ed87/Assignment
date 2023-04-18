@@ -1,155 +1,275 @@
+html {
+    font-size: 18px;
+}
 
 body {
-    margin: 0;
-    padding: 100px;
-    padding-top: 20px;
-    font-family: "Roboto", sans-serif;
     font-size: 1rem;
-    max-width: 1200px;
-    margin: auto
+    margin: 0;
 }
-#Art-card-info{
+
+h1 {
+    font-size: 2.78rem;
     color: #FFFFFF;
-
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-h1{
-    font-family: Libre Caslon Display;
-    font-size: 50px;
+    font-family: 'Libre Caslon Display', sans-serif;
     font-weight: 400;
-    line-height: 62px;
-    letter-spacing: 0em;
-    text-align: left;
-     color: #FFFFFF;
-
+    font-size: 2.78rem;
+    line-height: 3.44rem;
     flex: none;
     order: 1;
     flex-grow: 0;
 }
-#btn{
-    font-family: 'Inter';
+
+h2 {
+    font-size: 1.67rem;
+}
+
+#first-part {
+    background-color: #212121;
+    background-image: url(mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    height: 57rem;
+    padding-left: 1.78rem;
+    padding-right: 1.6rem;
+}
+
+#artjunks {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #ffffff;
+    align-self: flex-start;
+}
+
+#desktop-contents {
+    display: none;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    background: #212121;
-    border: 2px solid #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.22rem;
+    color: #FFFFFF;
+}
+
+#content {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.67rem;
+    flex: none;
+    flex-grow: 0;
+    margin-top: 1.78rem;
+    margin-bottom: 1.78rem;
+}
+
+#button {
+    background-color: #212121;
+    color: #ffffff;
+    border: 2px solid white;
     border-radius: 10px;
-    
-    color: #FFFFFF;
-      
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.22rem;
+    background-color: transparent;
 }
 
-
-#h2{
-    height: 48px;
-    width: 269px;
-    left: 72px;
-    top: 1113px;
-    border-radius: nullpx;
-    
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
+#hamburger {
+    color: #ffffff;
+    align-self: flex-end;
 }
-h2{
-    height: 48px;
-    width: 269px;
-    left: 72px;
-    top: 1113px;
-    border-radius: nullpx;
-    
-    font-family: Inter;
-    font-size: 36px;
+
+#white-button {
+    background: #FFFFFF;
+    width: 5rem;
+    height: 0.8px;
+    flex: none;
+    flex-grow: 0;
+    margin-bottom: 1.78rem;
+}
+
+#artjunks-and-hamburger {
+    display: flex;
+    padding-top: 1.78rem;
+    flex-direction: row;
+    padding-bottom: 12rem;
+    justify-content: space-between;
+}
+
+#newest-reads {
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
-    line-height: 46px;
-    letter-spacing: 0em;
-    text-align: left;
+    font-size: 1.33rem;
+    line-height: 1.6rem;
+    color: #000000;
+    padding-top: 4.33rem;
+    padding-bottom: 4.33rem;
+}
+
+.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.72rem;
+    line-height: 0.89rem;
+    color: #B7B7B7;
+    margin-bottom: 1.6rem;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.11rem;
+    line-height: 1.33rem;
     color: #000000;
 }
 
-
-.Art-card-image1{
-    height: 352px;
-    width: 419px;
-    left: 0px;
-    top: 0px;
-    border-radius: 4px;
-    
-    right: 0px;
-    text-align: center;
-    background: url(.jpg);
-    border-radius: 4px;
-
-}
-.Art-card-title{
-    height: 14px;
-    width: 80px;
-    left: 32px;
-    top: 387px;
-    border-radius: nullpx;
-     
-    font-family: Inter;
-    font-size: 10px;
+.read-more {
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.Art-card2{
-    margin-bottom: 100px;
-
+    font-size: 0.83rem;
+    line-height: 1rem;
+    color: #D9852C;
+    text-align: right;
 }
 
- #read_more{
+.desc1 {
+    margin-bottom: 15px;
+}
 
-text-align: right;
+.desc2 {
+    margin-bottom: 50px;
+}
 
-} 
+.desc3 {
+    margin-bottom: 48px;
+}
 
+.date-and-description {
+    border: 1px solid #DDDDDD;
+    padding: 1.78rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
 
-#rectangle1{
-    height: 600px;
-    width: 375px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    
-    background: #212121;
-    opacity: 0.5;
+#get-started-btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    height: 25px;
+    align-self: center;
+}
+
+#second-part-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#second-part {
+    padding-left: 1.78rem;
+    padding-right: 1.78rem;
+}
+
+.second-part-subsection {
+    width: 100%;
+}
+
+.image {
+    border-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.navbar {
+    height: 1.22rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
 
 }
 
-#rectangle3{
+@media screen and (min-width: 576px) {
 
-    height: 15px;
-    width: 90px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-     margin-left: 32px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    #first-part {
+        background-image: url(tablet.svg);
+    }
+
+    #second-part {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    #second-part-container {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .desc-and-read-more {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .read-more{
+        align-self: flex-end;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+    }
+
+    .date-and-description {
+        height: 16rem;
+    }
+
+    .description {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
 }
-#hamburger{
-height: 35px;
-width: 35px;
-margin-left: 311px;
-top: 32px;
-border-radius: 0px;
+
+@media screen and (min-width: 768px) {
+    #desktop-contents {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    #artjunks {
+        width: 30%;
+    }
+
+    #artjunks-and-hamburger {
+        display: flex;
+        padding-top: 1.78rem;
+        flex-direction: row;
+        padding-bottom: 12rem;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #first-part {
+        background-image: url(desktop.svg);
+    }
+
+    h1 {
+        font-size: 4.44rem;
+        line-height: 5.5rem;
+    }
+
+    .description {
+        font-size: 1.38rem;
+        line-height: 1.67rem;
+    }
 }
